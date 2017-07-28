@@ -7,6 +7,7 @@
 #include <boost/date_time/posix_time/posix_time.hpp>
 
 using namespace std;
+
 void hello(){
     std::cout << "Hello, World!" << std::endl;
 }
