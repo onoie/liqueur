@@ -16,3 +16,5 @@ sudo make install
 ```
 sudo xargs rm < install_manifest.txt
 ```
+ [x]ok
+ [] ng
