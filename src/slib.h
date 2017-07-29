@@ -1,9 +1,10 @@
 
-#ifndef ONO_SLIB_H
-#define ONO_SLIB_H
+#ifndef SLIB_H
+#define SLIB_H
 
 void hello();
+std::string echo(std::string);
 void createSampleText();
 std::wstring formatDateWstr(boost::posix_time::ptime);
 
-#endif //ONO_SLIB_H
+#endif //SLIB_H

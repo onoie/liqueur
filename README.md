@@ -1,8 +1,9 @@
 # liqueur
 c++ cui tool
 
-### dep
+### dependency
 boost v1.64.0-4
+sqlite
 
 ### install
 ```

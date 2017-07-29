@@ -11,6 +11,9 @@ using namespace std;
 void hello(){
     std::cout << "Hello, World!" << std::endl;
 }
+string echo(string s){
+    return "echo:"+s+"\n";
+}
 void createSampleText(){
     typedef boost::iostreams::tee_device<ostream,ofstream> TeeDevice;
     ofstream ofs("sample.txt");

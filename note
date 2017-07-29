@@ -1,0 +1,6 @@
+sqlite3 db_test.sqlite3
+create table tb_test(id integer,name text);
+insert into tb_test(id,name) values(1,'aaa');
+insert into tb_test(id,name) values(2,'bbb');
+insert into tb_test(id,name) values(3,'ccc');
+.quit
