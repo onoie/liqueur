@@ -12,14 +12,17 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0 -g")
 
 find_package(PkgConfig REQUIRED)
 find_package(Boost 1.64.0 REQUIRED)
-pkg_check_modules(SQLITE3 REQUIRED sqlite3)
+find_package(Boost COMPONENTS program_options REQUIRED)
 
+pkg_check_modules(SQLITE3 REQUIRED sqlite3)
 #-D
 #add_definitions(-DFOO -DBAR=xyz)
 
 #-I
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
+include_directories(${Boost_INCLUDE_DIRS})
+
 #include_directories(/usr/include/)
 
 #-L
