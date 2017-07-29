@@ -1,6 +1,7 @@
 //
 // Created by onoie on 7/29/17.
 //
+//quote http://c-language-program.cocolog-nifty.com/blog/2010/03/bmp-4b2c.html
 
 #ifndef LIQUEUR_BMP_H
 #define LIQUEUR_BMP_H

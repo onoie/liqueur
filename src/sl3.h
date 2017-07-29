@@ -1,7 +1,7 @@
 //
 // Created by onoie on 7/29/17.
 //
-
+//quote http://qiita.com/Ki4mTaria/items/bce1a6080e537fb1c949
 #ifndef LIQUEUR_SL3_H
 #define LIQUEUR_SL3_H
 
