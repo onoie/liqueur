@@ -2,8 +2,9 @@
 author:onoie
 
 ### dependency
+ * pkg-config v0.29.2-1
  * boost v1.64.0-4
- * sqlite 3.19.3
+ * sqlite v3.19.3
 
 ### install
 ```
@@ -16,5 +17,8 @@ sudo make install
 ```
 sudo xargs rm < install_manifest.txt
 ```
- [x]ok
- [] ng
+
+### Todo
+- [x] Venus
+- [ ] Mercury
+
