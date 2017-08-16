@@ -19,6 +19,6 @@ sudo xargs rm < install_manifest.txt
 ```
 
 ### Todo
-- [x] Venus
-- [ ] Mercury
+- [x] True
+- [ ] False
 
